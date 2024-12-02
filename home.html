@@ -1,0 +1,130 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+            margin-top: 50px;
+        }
+        .hero h2 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .container {
+            padding: 20px;
+        }
+        .featured {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .featured div {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 1;
+            margin: 0 10px;
+        }
+        .featured div h3 {
+            margin-top: 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EDUCATOR</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="aboutus.html">AboutUs</a></li>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="guide.html">Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Welcome to Our Page</h2>
+        <p>Your gateway to learning and growth</p>
+    </div>
+
+    <div class="container">
+        <div class="featured">
+            <div>
+                <h3>Course Enroll</h3>
+                <ul>
+                    <li><a href="courseregister.html">Enroll</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Course Registered</h3>
+                <ul>
+                    <li><a href="used.html">Registered</a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
